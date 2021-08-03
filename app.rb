@@ -16,7 +16,6 @@ end
 
 get '/named-cat' do
   p params
-  @user_name = params[:namee]
-  @user_color = params[:color]
+  @user_name = params[:name]
   erb(:index)
 end
